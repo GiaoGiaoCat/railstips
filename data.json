@@ -1,4 +1,4 @@
 [
-  { "title": "批判的价值", "description": "嘻嘻更健康" },
-  { "title": "你好吗", "description": "恩，不错，很有趣" }
+  { "title": "reorder(*args)", "description": "Replaces any existing order defined on the relation with the specified order.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-reorder" },
+  { "title": "create_with(value)", "description": "Sets attributes to be used when creating new records from a relation object.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-create_with" }
 ]
