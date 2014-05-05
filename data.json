@@ -1,4 +1,29 @@
 [
+  // ActiveRecord::QueryMethods by victor
+  { "title": "create_with(value)", "description": "Sets attributes to be used when creating new records from a relation object.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-create_with" },
+  { "title": "distinct(value = true)", "description": "Specifies whether the records should be unique or not.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-distinct" },
+  { "title": "eager_load(*args)", "description": "Forces eager loading by performing a LEFT OUTER JOIN on args.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-eager_load" },
+  { "title": "extending(*modules, &block)", "description": "Used to extend a scope with additional methods, either through a module or through a block provided.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-extending" },
+  { "title": "from(value, subquery_name = nil)", "description": "Specifies table from which the records will be fetched.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-from" },
+  { "title": "group(*args)", "description": "Allows to specify a group attribute.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-group" },
+  { "title": "having(opts, *rest)", "description": "Allows to specify a HAVING clause. Note that you can't use HAVING without also specifying a GROUP clause.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-having" },
+  { "title": "includes(*args)", "description": "Specify relationships to be included in the result set.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-includes" },
+  { "title": "joins(*args)", "description": "Performs a joins on args.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-joins" },
+  { "title": "limit(value)", "description": "Specifies a limit for the number of records to retrieve.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-limit" },
+  { "title": "lock(locks = true)", "description": "Specifies locking settings (default to true). For more information on locking, please see +ActiveRecord::Locking+.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-lock" },
+  { "title": "none()", "description": "Returns a chainable relation with zero records.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-none" },
+  { "title": "offset(value)", "description": "Specifies the number of rows to skip before returning rows.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-offset" },
+  { "title": "order(*args)", "description": "Allows to specify an order attribute.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-order" },
+  { "title": "preload(*args)", "description": "Allows preloading of args, in the same way that includes does.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-preload" },
+  { "title": "readonly(value = true)", "description": "Sets readonly attributes for the returned relation. If value is true (default), attempting to update a record will result in an error.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-readonly" },
+  { "title": "references(*table_names)", "description": "Use to indicate that the given table_names are referenced by an SQL string, and should therefore be JOINed in any query rather than loaded separately.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-references" },
   { "title": "reorder(*args)", "description": "Replaces any existing order defined on the relation with the specified order.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-reorder" },
-  { "title": "create_with(value)", "description": "Sets attributes to be used when creating new records from a relation object.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-create_with" }
+  { "title": "reverse_order()", "description": "Reverse the existing order clause on the relation.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-reverse_order" },
+  { "title": "rewhere(conditions)", "description": "Allows you to change a previously set where condition for a given attribute, instead of appending to that condition.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-rewhere" },
+  { "title": "select(*fields)", "description": "Works in two unique ways.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-select" },
+  { "title": "uniq(value = true)", "description": "Alias for: distinct.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-uniq" },
+  { "title": "unscope(*args)", "description": "Removes an unwanted relation that is already defined on a chain of relations.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-unscope" },
+  { "title": "where(opts = :chain, *rest)", "description": "Returns a new relation, which is the result of filtering the current relation according to the conditions in the arguments.", "link": "http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-where" },
+  // Please add ur data, tks
+  { "title": "PHP是最好的语言", "description": "不转不是中国人.", "link": "http://ruby-china.org/" }
 ]
